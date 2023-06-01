@@ -1,3 +1,13 @@
+import Header from '@/components/Header';
+
 export default function Home() {
-  return <div className=" text-green-500">hello</div>;
+  return (
+    <div
+      className=" bg-neutral-900 rounded-lg h-full w-full overflow-y-auto
+   overflow-x-auto
+  "
+    >
+      <Header>Header</Header>
+    </div>
+  );
 }
